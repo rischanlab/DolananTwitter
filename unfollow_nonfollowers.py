@@ -53,5 +53,5 @@ def main():
         print " .. completed, sleeping for 1 second."
         time.sleep(1)
 
-if __name__ == __main__:
+if __name__ == '__main__':
     main()

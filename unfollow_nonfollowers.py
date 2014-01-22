@@ -1,8 +1,6 @@
 __author__ = 'rischan'
 
 import constants
-from db_conn import DBConn
-from random import randinta
 from datetime import datetime
 import time
 from util import setup_api

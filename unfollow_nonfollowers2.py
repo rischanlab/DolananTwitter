@@ -19,13 +19,11 @@ def main():
     print "Loading followers.."
     followers = []
     for follower in tweepy.Cursor(api.followers).items():
-        time.sleep(60)
         followers.append(follower)
 
     print "Found %s followers, finding friends.." % len(followers)
     friends = []
     for friend in tweepy.Cursor(api.friends).items():
-        time.sleep(60)
         friends.append(friend)
 
     friend_dict = {}
